@@ -5,8 +5,9 @@ import { EventCarousel } from './components/events/EventCarousel';
 import { YouTubeEmbed } from './components/events/YouTubeEmbed';
 import { FadeIn } from './components/ui/FadeIn';
 import { events } from './data/events';
-import { mainMemberProps } from './components/team/TeamData';
 import MainMember from './components/team/main_member';
+import mainMemberProps from './components/team/TeamData';
+
 
 function App() {
   return (
