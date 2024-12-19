@@ -1,4 +1,4 @@
-const mainMemberProps = {
+const TeamLeadProps = {
     name: "Srinivas Rao",
     role: "Lead Guitarist",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
@@ -61,4 +61,4 @@ const mainMemberProps = {
       }
     ]
   };
-export default mainMemberProps;
+export default TeamLeadProps;

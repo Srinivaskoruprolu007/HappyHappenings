@@ -5,9 +5,8 @@ import { EventCarousel } from './components/events/EventCarousel';
 import { YouTubeEmbed } from './components/events/YouTubeEmbed';
 import { FadeIn } from './components/ui/FadeIn';
 import { events } from './data/events';
-import MainMember from './components/team/Main_member';
-import mainMemberProps from './components/team/TeamData';
-
+import TeamLead from './components/team/TeamLead';
+import TeamLeadProps from './components/team/TeamData';
 
 function App() {
   return (
@@ -132,7 +131,7 @@ function App() {
           />
 
           {/* Team Page */}
-          <Route path="/team" element={<MainMember {...mainMemberProps} />} />
+          <Route path="/team" element={<TeamLead {...TeamLeadProps} />} />
         </Routes>
 
         <Footer />
